@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+var carg=120;
+function draw() {
+  var canvas = document.getElementById('canvas');
+  if (canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+     ctx.strokeRect(5,5,150,45);
+	 ctx.strokeRect(10,10,140,35);
+	 ctx.strokeRect(155,17,10,20);
+	 ctx.fillStyle="#A7D363";
+	 ctx.fillRect(10,11,carg,33);
+	 ctx.strokeRect(29, 10, 5, 35);
+	 ctx.strokeRect(58, 10, 5, 35);
+	 ctx.strokeRect(87, 10, 5, 35);
+	 ctx.strokeRect(116, 10, 5, 35);
+	 ctx.clearRect(30, 9, 3, 37);
+	 ctx.clearRect(59, 9, 3, 37);
+	 ctx.clearRect(88, 9, 3, 37);
+	 ctx.clearRect(117, 9, 3, 37);
+	}
+}
